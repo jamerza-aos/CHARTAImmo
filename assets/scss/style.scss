@@ -416,3 +416,91 @@
     }
 
 }
+.rechteck45{
+    background-color: #F2F2F2;
+    height: 775px;
+    
+    &__überschrift{
+        display: flex;
+    }
+    &__data,&__inputs-div{
+        width: 50%;
+    }
+    &__text{
+        color: #85857B;
+        font-size: 40px;
+        font-family: NeueHaasDisplayBold;
+        padding: 8rem 0 3rem 8rem;
+    }
+    &__ul{
+        padding: 0.1rem 8rem;
+        list-style-type: none;
+        line-height: 1.9;
+    }
+    &__item{
+        font-size: 16px;
+        font-family: neueHaasDisplayRoman;
+        opacity: 0.8;
+    }
+    &__inputs-div{
+        gap: 10px;
+    }
+    &__text-input,&__text-input2{
+        height: 40px;
+        width: 270px;
+        padding-left: 0.8rem;
+    }
+    &__text-input2{
+        margin:0 0 1.3rem 1.8rem;
+        padding-left: 0.8rem;
+    }
+    &__email-input{
+        height: 40px;
+        width: 574px;
+        margin-bottom: 1.3rem;
+        padding-left: 0.8rem;
+    }
+    &__nachricht-input{
+        height: 25vh;
+        padding-bottom: 20vh;
+        padding-left: 0.8rem;
+        width: 574px;
+        color: #000;
+    }
+    &__button{
+        font-size: 16px;
+        border: 1px solid #BE1622;
+        color: #BE1622;
+        padding: 1.1rem 2rem;
+        background: none;
+        font-family: NeueHaasDisplayBold;
+        margin: 3rem 0 3rem 22.8rem; 
+    }
+    &__button:hover{
+        background-color: #BE1622;
+        color: #F2F2F2;
+    }
+}
+
+.footer{
+     height: 8vh;
+    display: flex;
+    background-color: #F2F2F2;
+    border-top: 2px solid #85857B;
+    margin: 0rem 9rem;
+    font-family: NeueHaasDisplayMediumItalic;
+    padding-top: 1.5rem;
+    &__design{
+        padding-right: 3rem;
+    }
+    &__logo{
+        height: 17px;
+        width: 82px;
+        // padding-left: 1rem;
+    }
+    &__Impressum{
+        padding-left: 46rem;
+        padding-right: 3rem;
+    }
+  
+}

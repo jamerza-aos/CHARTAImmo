@@ -478,4 +478,109 @@
   padding-right: 15px;
   font-size: 30px;
 }
+
+.rechteck45 {
+  background-color: #F2F2F2;
+  height: 775px;
+}
+
+.rechteck45__überschrift {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rechteck45__data, .rechteck45__inputs-div {
+  width: 50%;
+}
+
+.rechteck45__text {
+  color: #85857B;
+  font-size: 40px;
+  font-family: NeueHaasDisplayBold;
+  padding: 8rem 0 3rem 8rem;
+}
+
+.rechteck45__ul {
+  padding: 0.1rem 8rem;
+  list-style-type: none;
+  line-height: 1.9;
+}
+
+.rechteck45__item {
+  font-size: 16px;
+  font-family: neueHaasDisplayRoman;
+  opacity: 0.8;
+}
+
+.rechteck45__inputs-div {
+  gap: 10px;
+}
+
+.rechteck45__text-input, .rechteck45__text-input2 {
+  height: 40px;
+  width: 270px;
+  padding-left: 0.8rem;
+}
+
+.rechteck45__text-input2 {
+  margin: 0 0 1.3rem 1.8rem;
+  padding-left: 0.8rem;
+}
+
+.rechteck45__email-input {
+  height: 40px;
+  width: 574px;
+  margin-bottom: 1.3rem;
+  padding-left: 0.8rem;
+}
+
+.rechteck45__nachricht-input {
+  height: 25vh;
+  padding-bottom: 20vh;
+  padding-left: 0.8rem;
+  width: 574px;
+  color: #000;
+}
+
+.rechteck45__button {
+  font-size: 16px;
+  border: 1px solid #BE1622;
+  color: #BE1622;
+  padding: 1.1rem 2rem;
+  background: none;
+  font-family: NeueHaasDisplayBold;
+  margin: 3rem 0 3rem 22.8rem;
+}
+
+.rechteck45__button:hover {
+  background-color: #BE1622;
+  color: #F2F2F2;
+}
+
+.footer {
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F2F2F2;
+  border-top: 2px solid #85857B;
+  margin: 0rem 9rem;
+  font-family: NeueHaasDisplayMediumItalic;
+  padding-top: 1.5rem;
+}
+
+.footer__design {
+  padding-right: 3rem;
+}
+
+.footer__logo {
+  height: 17px;
+  width: 82px;
+}
+
+.footer__Impressum {
+  padding-left: 46rem;
+  padding-right: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
