@@ -319,3 +319,100 @@
             line-height: 1.6;
         }
 }
+
+.rechteck35{
+    height: 70vh;
+     margin:8rem 0 5vh 20rem;
+    direction: ltr;
+    color: #1D1D1B;
+    opacity: 1;
+    &__überschrift{
+        // margin: 8vh 0 5vh 11vw ;
+        // margin: 5vh 0 5vh  14vh ;
+            padding: 0 1rem ;
+            border-left: 4px solid #BE1622;
+    }
+    &__rot{
+        color: #BE1622;
+        font-size: 16px;
+        font-family: NeueHaasDisplayBold;
+    }
+    &__marktrecht{
+        font-size: 40px;
+            color: #1D1D1B;
+            font-family: neueHaasDisplayRoman;
+            width: 80%;
+    }
+    &__p{
+        font-family: neueHaasDisplayRoman;
+        font-size: 16px;
+        line-height: 1.8;
+        padding: 1.5rem 23rem 0 1.5rem;
+    }
+    &__button{
+        font-size: 16px;
+        border: 1px solid #BE1622;
+        color: #BE1622;
+        padding: 1.1rem 2rem;
+        background: none;
+        font-family: NeueHaasDisplayBold;
+        margin: 3rem 0 0 1.3rem;
+    }
+}
+
+.rechteck37{
+    display: flex;
+    background-color: #D5D5D5;
+    height: 784px;
+    &__div-img,&__div-text{
+        width: 50%;
+        // text-align: center;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 82%;
+        margin: 6rem 6rem;
+    }
+    &__überschrift{
+        margin: 17vh 0 0vh  1vw ;
+        padding-left: 1rem;
+        border-left: 4px solid rgba(190,22,34,1);
+    }
+    &__rot{
+        color: #BE1622;
+        font-size: 16px;
+        font-family: NeueHaasDisplayBold;
+    }
+    // &__div-text{
+    //     width: 50%;
+    // }
+    &__unser{
+        font-size: 40px;
+        font-family: neueHaasDisplayRoman;
+        width: 70%;
+    }
+    &__ul{
+        // padding: 0rem 0 0 0rem;
+        padding:2rem 0 0 3rem ;
+
+    }
+
+    &__item{
+        font-size: 16px;
+        font-family: neueHaasDisplayRoman;
+        line-height: 1.3;
+        opacity: 0.7;
+        list-style-type: none;
+
+        &::before{
+            content: '.';
+            color: #BE1622;
+            padding-right: 15px;
+            font-size: 30px;
+
+        }
+    }
+
+}

@@ -372,4 +372,110 @@
   width: 85%;
   line-height: 1.6;
 }
+
+.rechteck35 {
+  height: 70vh;
+  margin: 8rem 0 5vh 20rem;
+  direction: ltr;
+  color: #1D1D1B;
+  opacity: 1;
+}
+
+.rechteck35__überschrift {
+  padding: 0 1rem;
+  border-left: 4px solid #BE1622;
+}
+
+.rechteck35__rot {
+  color: #BE1622;
+  font-size: 16px;
+  font-family: NeueHaasDisplayBold;
+}
+
+.rechteck35__marktrecht {
+  font-size: 40px;
+  color: #1D1D1B;
+  font-family: neueHaasDisplayRoman;
+  width: 80%;
+}
+
+.rechteck35__p {
+  font-family: neueHaasDisplayRoman;
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 1.5rem 23rem 0 1.5rem;
+}
+
+.rechteck35__button {
+  font-size: 16px;
+  border: 1px solid #BE1622;
+  color: #BE1622;
+  padding: 1.1rem 2rem;
+  background: none;
+  font-family: NeueHaasDisplayBold;
+  margin: 3rem 0 0 1.3rem;
+}
+
+.rechteck37 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #D5D5D5;
+  height: 784px;
+}
+
+.rechteck37__div-img, .rechteck37__div-text {
+  width: 50%;
+}
+
+.rechteck37__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 82%;
+  margin: 6rem 6rem;
+}
+
+.rechteck37__überschrift {
+  margin: 17vh 0 0vh  1vw;
+  padding-left: 1rem;
+  border-left: 4px solid #be1622;
+}
+
+.rechteck37__rot {
+  color: #BE1622;
+  font-size: 16px;
+  font-family: NeueHaasDisplayBold;
+}
+
+.rechteck37__unser {
+  font-size: 40px;
+  font-family: neueHaasDisplayRoman;
+  width: 70%;
+}
+
+.rechteck37__ul {
+  padding: 2rem 0 0 3rem;
+}
+
+.rechteck37__item {
+  font-size: 16px;
+  font-family: neueHaasDisplayRoman;
+  line-height: 1.3;
+  opacity: 0.7;
+  list-style-type: none;
+}
+
+.rechteck37__item::before {
+  content: '.';
+  color: #BE1622;
+  padding-right: 15px;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
