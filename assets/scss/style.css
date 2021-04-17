@@ -317,4 +317,59 @@
   padding-left: 0.7rem;
   color: #85857B;
 }
+
+.rechteck33 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #484C55;
+  height: 1074px;
+  position: relative;
+  padding-top: 15vh;
+}
+
+.rechteck33__text {
+  position: absolute;
+  margin: 25vh 0vh 0 65vh;
+  background-color: #484C55;
+  z-index: 2;
+}
+
+.rechteck33__bild {
+  z-index: 1;
+}
+
+.rechteck33__img {
+  height: 70vh;
+  width: 55vw;
+  margin-left: -4.3vh;
+}
+
+.rechteck33__weiß {
+  margin: 5vh 0 5vh  14vh;
+  padding: 0 1rem;
+  border-left: 4px solid #F2F2F2;
+}
+
+.rechteck33__15 {
+  color: #BE1622;
+  font-size: 16px;
+  font-family: NeueHaasDisplayBold;
+}
+
+.rechteck33__mehr-wohn {
+  font-size: 40px;
+  color: #F2F2F2;
+  font-family: neueHaasDisplayRoman;
+  width: 80%;
+}
+
+.rechteck33__p {
+  font-size: 16px;
+  color: #F2F2F2;
+  font-family: neueHaasDisplayRoman;
+  padding-left: 8rem;
+  width: 85%;
+  line-height: 1.6;
+}
 /*# sourceMappingURL=style.css.map */
