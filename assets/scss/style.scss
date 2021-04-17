@@ -1,6 +1,66 @@
 @font-face {
+    font-family: NeueHaasDisplayBlack;
+    src: url(../Font/NeueHaasDisplayBlack.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayBlackItalic;
+    src: url(../Font/NeueHaasDisplayBlackItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayBold;
+    src: url(../Font/NeueHaasDisplayBold.ttf);
+  }
+  @font-face {
     font-family: neueHaasDisplayRoman;
+    src: url(../Font/NeueHaasDisplayBoldItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayLight;
+    src: url(../Font/NeueHaasDisplayLight.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayLightItalic;
+    src: url(../Font/NeueHaasDisplayLightItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayMediu;
+    src: url(../Font/NeueHaasDisplayMediu.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayMediumItalic;
+    src: url(../Font/NeueHaasDisplayMediumItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayRoman;
     src: url(../Font/NeueHaasDisplayRoman.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayRomanItalic;
+    src: url(../Font/NeueHaasDisplayRomanItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayThin;
+    src: url(../Font/NeueHaasDisplayThin.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayMediu;
+    src: url(../Font/NeueHaasDisplayThinItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayXThin;
+    src: url(../Font/NeueHaasDisplayXThin.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayXThinItalic;
+    src: url(../Font/NeueHaasDisplayXThinItalic.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayXXThin;
+    src: url(../Font/NeueHaasDisplayXXThin.ttf);
+  }
+  @font-face {
+    font-family: NeueHaasDisplayXXThinItalic;
+    src: url(../Font/NeueHaasDisplayXXThinItalic.ttf);
   }
 
 *{
@@ -126,4 +186,89 @@
         font-family: neueHaasDisplayRoman;
         
     }
+}
+
+.main{
+    background-color: #F2F2F2;
+    padding-top: 10rem;
+    font-family: neueHaasDisplayRoman;
+        &__div-überschrift{
+            margin: 0 0 5vh  11vw ;
+            padding-left: 1rem;
+            border-left: 4px solid rgba(190,22,34,1);
+        }
+        &__projekte{
+            color:rgba(190,22,34,1) ;
+            font-size: 16px;
+            font-family: neueHaasDisplayRoman;
+            //font-weight: bold;
+        }
+        &__aktuelle{
+            font-size: 40px;
+            font-family: neueHaasDisplayRoman;
+            margin-bottom: 8rem;
+        }
+
+        &__section{
+            display:grid;
+            width: 100%;
+            grid-template-columns: repeat(3,1fr );
+            // justify-content: space-around;
+            padding: 0 11rem 11rem 11rem;
+            gap: 30px;
+            
+        }
+
+        &__cart{
+            height: 489px;
+            width: 350px;
+            // border: 1px solid #000;
+            background: #fff;
+        
+        }
+        &__cart-img{
+            height: 200px;
+            // width: 352px;
+            width: 100%;
+        }
+        &__cart-p{
+            font-size: 22px;
+            padding: 12px;
+            font-family: neueHaasDisplayRoman;
+        }
+        &__objekt, &__wohnfläche{
+            font-size: 15px;
+            padding: 10px;
+            color: #85857B;
+        }
+        &__nummer,&__circa{
+            font-size: 17px;
+            padding: 10px;
+            color: #000000;
+            font-weight: bolder;
+        }
+        &__span-hell{
+            padding-left: 6.5rem;
+        }
+        &__span-dunkel{
+            padding-left: 7rem;
+        }
+
+        &__mehre-rfahren{
+            display: flex;
+            border-top: 2px solid #64645b2a ;
+            padding-top: 1rem;
+        }
+        &__button{
+            color: rgba(190,22,34,1);
+            background: none;
+            border: none;
+            font-size: 16px;
+            padding-left: 6.5em;
+            font-weight: bold;
+        }
+        &__phone-icon{
+            padding-left: 0.7rem;
+            color:#85857B ;
+        }
 }
