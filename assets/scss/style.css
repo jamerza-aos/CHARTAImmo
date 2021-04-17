@@ -191,6 +191,11 @@
   margin: 3rem 0 0 63rem;
 }
 
+.header__submit:hover {
+  background-color: #BE1622;
+  color: #F2F2F2;
+}
+
 .header__input {
   background: #FFFFFFD1 0% 0% no-repeat padding-box;
   border: 1px solid #A2A2A2;
@@ -272,6 +277,7 @@
 .main__cart-p {
   font-size: 22px;
   padding: 12px;
+  opacity: 0.6;
   font-family: neueHaasDisplayRoman;
 }
 
@@ -316,6 +322,7 @@
 .main__phone-icon {
   padding-left: 0.7rem;
   color: #85857B;
+  opacity: 0.4;
 }
 
 .rechteck33 {
@@ -414,6 +421,11 @@
   background: none;
   font-family: NeueHaasDisplayBold;
   margin: 3rem 0 0 1.3rem;
+}
+
+.rechteck35__button:hover {
+  background-color: #BE1622;
+  color: #F2F2F2;
 }
 
 .rechteck37 {
