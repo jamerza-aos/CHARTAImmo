@@ -3,91 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chartalimmo</title>
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/scss/style.css">
 </head>
 <body>
     
-    <nav class="nav">
-        <img src="./assets/img/Ebene 2.svg" class="Logo">
-      <div class="menu-btn">
-        <div class="menu-btn__lines"></div>
-      </div>
-      <ul class="menu-items">
-        <li ><a class="menu-item" href="#">Immobilien</a></li>
-        <li ><a class="menu-item" href="#">Bauträge</a></li>
-        <li ><a class="menu-item" href="#">Für Privatsverkäfer</a></li>
-        <li><a class="menu-item" href="#">Über uns</a></li>
-        <li ><a class="menu-item" href="#">Kontakt</a></li>
-      </ul>
+    <nav  class="nav">
+        <a href="#home"> <img  src="./assets/img/Ebene 2.svg" class="Logo"></a>
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+            <ul class="menu-items">
+                <li ><a class="menu-item" href="#Immobilien">Immobilien</a></li>
+                <li ><a class="menu-item" href="#Bauträge">Bauträge</a></li>
+                <li ><a class="menu-item" href="#FürPrivatsverkäfer">Für Privatsverkäfer</a></li>
+                <li><a class="menu-item" href="#Überuns">Über uns</a></li>
+                <li ><a class="menu-item" href="#Kontakt">Kontakt</a></li>
+                    <div class="extra_menu_mobile_container">
+                        <div><a class="menu-item" href="#">Impressum</a></div>
+                        <div><a class="menu-item" href="#">Datenschutz</a></div>
+                    </div>
+            </ul>
     </nav>
     
-
-     <!-- <header class="header">
-        <p class="header__p">Wir haben Ihre </p>
-        <div class="header__div">
-            <p class="header__p2">Traumimmobilie.</p>
-            <form action="" class="header__form">
-                <input type="text"   class="header__input" placeholder="Ort">
-                <input type="text"   class="header__input" placeholder="Immobielienart">
-                <input type="text"  class="header__input" placeholder="Fläche ab">
-                <input type="text"   class="header__input" placeholder="Preis bis"> 
-            </form>
-            <input type="submit" class="header__submit" value="Suchen">
+     <header id="home"  class="header">
+         <div class="header_background_container">
+             <div class="header_data_container">
+                <p class="header__p">Wir haben Ihre </p>
+                <p class="header__p2">Traumimmobilie.</p>
+                <form action="" class="header__form">
+                    <div class="header_input_container">
+                        <input type="text"   class="header__input" placeholder="Ort">
+                         <select id="select" class="header__input">
+                            <option >Immobielienart</option>
+                            <option >Immobielienart-1</option>
+                            <option >Immobielienart-2</option>
+                            <option >Immobielienart-3</option>
+                          </select>
+                        <input type="number"  class="header__input" placeholder="Fläche ab">
+                        <input type="text"   class="header__input" placeholder="Preis bis"> 
+                    </div>
+                        <input type="submit" class="header__submit" value="Suchen">
+                </form>
+             </div>
         </div>    
-        
+             </div>
+         </div>
     </header> 
--->
-    <div class="willkommen">
+
+    <div  id="Immobilien" class="willkommen">
         <h1 class="willkommen__text">Willkommen bei Charta Immo – <br> Ihr Immobilienmakler für Wohnimmobilien in Musterhausen</h1>
-        <p class="willkommen__p"> ChartaImmo – das ist ein Unternehmen mit Tradition und Weitsicht. Unser Familienbetrieb, vermittelt seit fast 15 <br> 
-            Jahren Menschen in Immobilien. Unter der Leitung von Geschäftsführer Max Mustermann vermitteln wir nicht <br>
-            nur Bestandsimmobilien, sondern entwickeln und setzen auch Wohnprojekte in der Region Musterhause und <br>
-            Umgebung um.</p>
+            <p class="willkommen__p"> ChartaImmo – das ist ein Unternehmen mit Tradition und Weitsicht. Unser Familienbetrieb, vermittelt seit fast 15 <br> 
+                Jahren Menschen in Immobilien. Unter der Leitung von Geschäftsführer Max Mustermann vermitteln wir nicht <br>
+                nur Bestandsimmobilien, sondern entwickeln und setzen auch Wohnprojekte in der Region Musterhause und <br>
+                Umgebung um.</p>
     </div> 
 
-          <main class="main">
-        <div class="main__div-überschrift">
-            <h5 class="main__projekte">PROJEKTE</h5>
-            <h2 class="main__aktuelle">Aktuelle Wohnprojekte</h2>
-        </div>
+          <main id="Bauträge"  class="main">
+                <div class="main__div-überschrift">
+                    <h5 class="main__projekte">PROJEKTE</h5>
+                    <h1 class="main__aktuelle">Aktuelle Wohnprojekte</h1>
+                </div>
 
-        <section class="main__section">
-        <div class="main__cart"> 
-            <figure class="main__cart-figuar">
-                <img class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
-                <figcaption>
-                    <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
-                </figcaption>
-            </figure>
+                <section class="main__section">
+                    <div class="main__cart"> 
+                        <figure class="main__cart-figuar">
+                            <img class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
+                            <figcaption class="main__figcaption">
+                            <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
+                            </figcaption>
+                        </figure>
             
-                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell" >Kaufpreis</span></h4>
-                <h2 class="main__nummer">345623 <span class="main__span-dunkel">414.400,00 €</span></h2>
-                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell">Zimmer</span></h4>
-                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel">4</span></h2>
-            <div class="main__mehre-rfahren">
+                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell-1" > &nbsp; &nbsp; Kaufpreis</span></h4>
+                <h2 class="main__nummer">345623 <span class="main__span-dunkel-1">414.400,00 €</span></h2>
+                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell-2">Zimmer</span></h4>
+                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel-2">4</span></h2>
+                        <div class="main__mehre-rfahren">
                 <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
                 <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
                 <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
                     <button class="main__button">merh erfahren</button>
-
              </div>    
-        
+        </div>
+
+                <div class="main__cart"> 
+                        <figure class="main__cart-figuar">
+                            <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
+                            <figcaption class="main__figcaption">
+                                <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
+                            </figcaption>
+                        </figure>
+            
+                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell-1">&nbsp; &nbsp;Kaufpreis</span></h4>
+                <h2 class="main__nummer">345623 <span class="main__span-dunkel-1">414.400,00 €</span></h2>
+                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell-1">Zimmer</span></h4>
+                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel-2">4</span></h2>
+
+                <div class="main__mehre-rfahren">
+                    <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
+                    <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
+                    <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
+                        <button class="main__button">merh erfahren</button>
+            </div>
         </div>
 
         <div class="main__cart"> 
-            <figure class="main__cart-figuar">
-                <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
-                <figcaption>
-                    <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
-                </figcaption>
-            </figure>
+                    <figure class="main__cart-figuar">
+                        <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
+                        <figcaption class="main__figcaption">
+                        <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
+                        </figcaption>
+                    </figure>
             
-                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell">Kaufpreis</span></h4>
-                <h2 class="main__nummer">345623 <span class="main__span-dunkel">414.400,00 €</span></h2>
-                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell">Zimmer</span></h4>
-                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel">4</span></h2>
+                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell-1">&nbsp; &nbsp;Kaufpreis</span></h4>
+                <h2 class="main__nummer">345623 <span class="main__span-dunkel-1">414.400,00 €</span></h2>
+                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell-2">Zimmer</span></h4>
+                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel-2">4</span></h2>
 
                 <div class="main__mehre-rfahren">
                     <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
@@ -95,101 +127,76 @@
                     <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
                         <button class="main__button">merh erfahren</button>
         
-                     </div>
+                </div>
+            </div>
+
+            <div class="main__cart"> 
+                    <figure class="main__cart-figuar">
+                        <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
+                        <figcaption class="main__figcaption">
+                            <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
+                        </figcaption>
+                    </figure>
+            
+                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell-1">&nbsp; &nbsp;Kaufpreis</span></h4>
+                <h2 class="main__nummer">345623 <span class="main__span-dunkel-1">414.400,00 €</span></h2>
+                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell-2">Zimmer</span></h4>
+                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel-2">4</span></h2>
+                <div class="main__mehre-rfahren">
+                    <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
+                    <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
+                    <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
+                        <button class="main__button">merh erfahren</button>
+                </div>
+            </div>
+
+        <div class="main__cart"> 
+                    <figure class="main__cart-figuar">
+                        <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
+                        <figcaption class="main__figcaption">
+                        <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
+                        </figcaption>
+                    </figure>
+            
+                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell-1">&nbsp; &nbsp;Kaufpreis</span></h4>
+                <h2 class="main__nummer">345623 <span class="main__span-dunkel-1">414.400,00 €</span></h2>
+                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell-2">Zimmer</span></h4>
+                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel-2">4</span></h2>
+
+                <div class="main__mehre-rfahren">
+                    <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
+                    <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
+                    <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
+                        <button class="main__button">merh erfahren</button>
+        
+            </div>
         </div>
 
         <div class="main__cart"> 
-            <figure class="main__cart-figuar">
-                <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
-                <figcaption>
-                    <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
-                </figcaption>
-            </figure>
+                    <figure class="main__cart-figuar">
+                        <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
+                        <figcaption class="main__figcaption">
+                        <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
+                        </figcaption>
+                    </figure>
             
-                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell">Kaufpreis</span></h4>
-                <h2 class="main__nummer">345623 <span class="main__span-dunkel">414.400,00 €</span></h2>
-                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell">Zimmer</span></h4>
-                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel">4</span></h2>
+                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell-1">&nbsp; &nbsp;Kaufpreis</span></h4>
+                <h2 class="main__nummer">345623 <span class="main__span-dunkel-1">414.400,00 €</span></h2>
+                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell-2">Zimmer</span></h4>
+                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel-2">4</span></h2>
 
                 <div class="main__mehre-rfahren">
                     <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
                     <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
                     <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
                         <button class="main__button">merh erfahren</button>
-        
-                     </div>
-                    </div>
-
-        <div class="main__cart"> 
-            <figure class="main__cart-figuar">
-                <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
-                <figcaption>
-                    <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
-                </figcaption>
-            </figure>
-            
-                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell">Kaufpreis</span></h4>
-                <h2 class="main__nummer">345623 <span class="main__span-dunkel">414.400,00 €</span></h2>
-                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell">Zimmer</span></h4>
-                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel">4</span></h2>
-
-                <div class="main__mehre-rfahren">
-                    <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
-                    <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
-                    <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
-                        <button class="main__button">merh erfahren</button>
-        
-                     </div>
-        </div>
-
-        <div class="main__cart"> 
-            <figure class="main__cart-figuar">
-                <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
-                <figcaption>
-                    <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
-                </figcaption>
-            </figure>
-            
-                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell">Kaufpreis</span></h4>
-                <h2 class="main__nummer">345623 <span class="main__span-dunkel">414.400,00 €</span></h2>
-                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell">Zimmer</span></h4>
-                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel">4</span></h2>
-
-                <div class="main__mehre-rfahren">
-                    <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
-                    <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
-                    <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
-                        <button class="main__button">merh erfahren</button>
-        
-                     </div>
-        </div>
-
-        <div class="main__cart"> 
-            <figure class="main__cart-figuar">
-                <img  class="main__cart-img" src="./assets/img/clarisse-croset-MET1RiKQRjg-unsplash@2x.png" alt="">
-                <figcaption>
-                    <p class="main__cart-p">Neubauprojekt: Allbach - Wohnen in Muhausen</p>
-                </figcaption>
-            </figure>
-            
-                <h4 class="main__objekt">Objekt-Nr. <span class="main__span-hell">Kaufpreis</span></h4>
-                <h2 class="main__nummer">345623 <span class="main__span-dunkel">414.400,00 €</span></h2>
-                <h4 class="main__wohnfläche">Wohnfläche <span class="main__span-hell">Zimmer</span></h4>
-                <h2 class="main__circa">ca. 101 m² <span class="main__span-dunkel">4</span></h2>
-
-                <div class="main__mehre-rfahren">
-                    <img class="main__phone-icon" src="./assets/img/phone_black_24dp.svg" class="anruf" alt="">
-                    <img class="main__phone-icon" src="./assets/img/mail_outline_black_24dp.svg" class="anruf" alt="">
-                    <img class="main__phone-icon" src="./assets/img/chat_bubble_outline_black_24dp.svg" class="anruf" alt="">
-                        <button class="main__button">merh erfahren</button>
-        
-                     </div>
+            </div>
         </div>
     </section>
     </main> 
     
 
-     <main class="rechteck33">
+     <main  id="FürPrivatsverkäfer" class="rechteck33">
         <div class="rechteck33__bild">
             <img class="rechteck33__img" src="./assets/img/douglas-sheppard-9rYfG8sWRVo-unsplash@2x.png" alt="">
         </div>
@@ -198,73 +205,63 @@
                 <h5 class="rechteck33__15">15 Jahre Erfahrung</h5>
                 <h1 class="rechteck33__mehr-wohn" >Mehr Wohn- und Lebensqualität mit Charta Immo</h1>
             </div>
-            
                 <p class="rechteck33__p">
                     Als Familienbetrieb für Wohnimmobilien stehen wir für eine kompetente, persönliche, engagierte und professionelle Arbeitsweise. Diese bringen wir nur durch unsere hohe Qualität als Bauträger und Projektentwickler zum Ausdruck, sondern auch durch unsere Verbundenheit zu den Menschen, den Dienstleistern und der Region Musterhausen.
                 </p>
-                <br>
-
+            <br>
                 <p class="rechteck33__p"> 
                     In jedes unserer Projekte – ob Neubau oder Vermittlung – lassen wir unsere gesamte Erfahrung einfließen, die wir aus über 50 Jahren als Bauträger und Unternehmen im Immobiliengeschäft sammeln konnten.
                 </p>
-                <br>
-
+            <br>
                 <p class="rechteck33__p"> 
                      Wir arbeiten für Menschen. Die Kundenwünsche stellen wir daher immer in den Fokus und berücksichtigen sie bei all unseren Überlegungen und Entscheidungen. 
                 </p>
-                <br>
-
+            <br>
                 <p class="rechteck33__p">
                      Wir legen großen Wert auf eine hohe Wohn- und Lebensqualität und engagieren uns daher bei jedem Projekt und Auftrag so, als wäre er der wichtigste. 
                 </p>
-                <br>
-
+            <br>
                 <p class="rechteck33__p">
                     Ob für unsere eigenen Bauprojekte, die Revitalisierung von Bestandsimmobilien oder die Vermittlung von Immobilien an Privatpersonen: Wir vertrauen auf die zuverlässigen Handwerker und Dienstleister aus der Region und empfehlen diese gerne weiter.
                 </p>
-            
         </div>
     </main> 
  
-    <main class="rechteck35">
+    <main id="Überuns" class="rechteck35">
         <div class="rechteck35__überschrift">
             <h5 class="rechteck35__rot">Rundum Service</h5>
-            <h2 class="rechteck35__marktrecht">Marktgerechte Vermittlung für Eigentümer</h2>
+            <h1 class="rechteck35__marktrecht">Marktgerechte Vermittlung für Eigentümer</h1>
         </div>
-            
             <p class="rechteck35__p">Möchten Sie Ihre Immobilie in der Region Freiburg verkaufen, kümmern wir uns um eine professionelle Vermarktung und Vermittlung. Dazu gehört nicht nur unsere fundierte Immobilienmarktwerteinschätzung nach geltenden Richtlinien, sondern auch die hochwertige Präsentation mit allen modernen Foto- und Videotechniken. So wecken wir einerseits ein Wohngefühl beim Interessenten und sorgen andererseits für qualifiziertere Besichtigungen und damit einen erfolgreicheren Verkauf.</p>
             <button class="rechteck35__button"> mehr erfahren</button>
     </main>
 
 
-    <main class="rechteck37">
+    <main  class="rechteck37">
         <div class="rechteck37__div-img">
             <img class="rechteck37__img" src="./assets/img/stephan-bechert-yFV39g6AZ5o-unsplash@2x.png" alt="">
         </div>
-        
         <div class="rechteck37__div-text">
             <div class="rechteck37__überschrift">
                 <h5 class="rechteck37__rot">Arbeitserleichterung</h5>
                 <h2 class="rechteck37__unser">Unser Verkaufsservice für Sie:</h2>
             </div>
-
-            <ul class="rechteck37__ul">
-                <li class="rechteck37__item">Fachgerechte Wertermittlung für Ihre Immobilie</li>
+                <ul class="rechteck37__ul">
+                    <li class="rechteck37__item">Fachgerechte Wertermittlung für Ihre Immobilie</li>
                 <br>
-                <li class="rechteck37__item">Beschaffung und professionelle Aufbereitung aller relevanter <br> &nbsp; &nbsp; &nbsp; &nbsp;  Unterlagen</li>
+                    <li class="rechteck37__item">Beschaffung und professionelle Aufbereitung aller relevanter <br> &nbsp; &nbsp; &nbsp; &nbsp;  Unterlagen</li>
                 <br>
-                <li class="rechteck37__item">Erstellung eines hochwertigen Exposés inklusive <br> &nbsp; &nbsp; &nbsp; &nbsp; ansprechender Fotos</li>
+                    <li class="rechteck37__item">Erstellung eines hochwertigen Exposés inklusive <br> &nbsp; &nbsp; &nbsp; &nbsp; ansprechender Fotos</li>
                 <br>
-                <li class="rechteck37__item">Moderne Präsentation durch Luftaufnahmen und virtuelle <br> &nbsp; &nbsp; &nbsp; &nbsp; Rundgänge</li>
+                    <li class="rechteck37__item">Moderne Präsentation durch Luftaufnahmen und virtuelle <br> &nbsp; &nbsp; &nbsp; &nbsp; Rundgänge</li>
                 <br>
-                <li class="rechteck37__item">Durchführung der Besichtigungen und Bonitätsprüfung der <br> &nbsp; &nbsp; &nbsp; &nbsp; Kaufinteressenten</li>
+                    <li class="rechteck37__item">Durchführung der Besichtigungen und Bonitätsprüfung der <br> &nbsp; &nbsp; &nbsp; &nbsp; Kaufinteressenten</li>
             </ul>
         </div>
     </main>
 
-    <main class="rechteck45">
+    <main id="Kontakt" class="rechteck45">
         <h1 class="rechteck45__text">Schnell. Einfach. Direkt.</h1>
-        
         <div class="rechteck45__überschrift">
             <div class="rechteck45__data">
                 <ul class="rechteck45__ul">
@@ -285,11 +282,12 @@
         </div>
 
         <footer class="footer">
-            <h4 class="footer__design">Design by</h4>
-            <img class="footer__logo" src="./assets/img/onoffice-logo@2x.png" alt="">
-    
-            <h4 class="footer__Impressum">Impressum</h4>
-            <h4 class="footer__datenschutz">Datenschutz</h4>
+            <ul class="footer__ul">
+                <li class="footer__design">Design by</li>
+                <li class="footer__logo"><img class="footer__img" src="./assets/img/onoffice-logo@2x.png" alt=""></li>
+                <li class="footer__Impressum"> Impressum</li>
+                <li class="footer__datenschutz">Datenschutz</li>
+            </ul>
         </footer> 
     
     </main>   
